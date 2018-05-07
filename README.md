@@ -16,7 +16,7 @@ const { body, body: { username, password } } = request
 效果等同于
 <br>
 <code>
-  var body = request.body
-  var username = body.username
-  var password = body.password
+  var body = request.body<br>
+  var username = body.username<br>
+  var password = body.password<br>
 </code>
