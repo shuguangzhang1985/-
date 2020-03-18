@@ -34,27 +34,30 @@ const { body, body: { username, password } } = request
 
 5.当一个文件里出现n多个 export 导出很多模块，导入时除了一个一个导入，也可以用import * as example
 
-## git 指令
-命令行指令
+#### git 命令行指令
 
 Git 全局设置
-```git config --global user.name "张曙光"
+```
+git config --global user.name "张曙光"
 git config --global user.email ""
 ```
 
 创建新版本库
+```git
 git clone git@code.aliyun.com:vue-group/jd-merchant.git
 cd jd-merchant
 touch README.md
 git add README.md
 git commit -m "add README"
 git push -u origin master
-
+```
 已存在的文件夹或 Git 仓库
+```git
 cd existing_folder
 git init
 git remote add origin git@code.aliyun.com:vue-group/jd-merchant.git
 git add .
 git commit
 git push -u origin master
+```
 
