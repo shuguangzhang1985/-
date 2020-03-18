@@ -38,8 +38,9 @@ const { body, body: { username, password } } = request
 命令行指令
 
 Git 全局设置
-git config --global user.name "张曙光"
+```git config --global user.name "张曙光"
 git config --global user.email ""
+```
 
 创建新版本库
 git clone git@code.aliyun.com:vue-group/jd-merchant.git
