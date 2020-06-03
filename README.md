@@ -60,4 +60,6 @@ git add .
 git commit
 git push -u origin master
 ```
-
+#### SSH
+查看ssh： cat ~/.ssh/id_rsa.pub
+生成：ssh-keygen -t rsa -C "wb-zgg347171@alibaba-inc.com"  后继续check下 cat ~/.ssh/id_rsa.pub
